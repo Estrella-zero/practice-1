@@ -1,17 +1,28 @@
 # hello_world
 
-A new Flutter project.
+Flutter 计数器示例应用，支持 Web 端与 Android 模拟器运行。
 
-## Getting Started
+## 运行方式
 
-This project is a starting point for a Flutter application.
+确保已安装 Flutter SDK 并配置好环境变量。
 
-A few resources to get you started if this is your first Flutter project:
+### Web 端
+通过使用
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+flutter run -d chrome
+来进行打开并运行web端
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+### Android 
+
+注意：需要插件的下载
+
+```bash
+flutter devices        # 查看可用设备
+flutter run -d emulator-5554   # 替换为模拟器 ID
+```
+
+## 运行截图
+
+- Web 端：[docs/web.png](docs/软件作业一Web端截图.png)
+- Android 模拟器：[docs/android.png](docs/软件作业一Android端截图.png)
